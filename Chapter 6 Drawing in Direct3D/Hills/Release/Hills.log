@@ -1,0 +1,14 @@
+﻿生成启动时间为 2017/10/26 18:38:13。
+     1>项目“F:\电子书籍\d3d11CodeSet1\Chapter 6 Drawing in Direct3D\Hills\Hills.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release\Hills.unsuccessfulbuild”执行 Touch 任务。
+       CustomBuild:
+         fxc compile for release: F:\电子书籍\d3d11CodeSet1\Chapter 6 Drawing in Direct3D\Hills\FX\color.fx
+         'fxc' 不是内部或外部命令，也不是可运行的程序
+         或批处理文件。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): error MSB6006: “cmd.exe”已退出，代码为 9009。
+     1>已完成生成项目“F:\电子书籍\d3d11CodeSet1\Chapter 6 Drawing in Direct3D\Hills\Hills.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.41

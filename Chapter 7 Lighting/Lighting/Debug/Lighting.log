@@ -1,0 +1,72 @@
+﻿生成启动时间为 2017/12/13 18:21:36。
+     1>项目“F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Lighting.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Lighting.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): warning MSB8018: 没有为项“FX\LightHelper.fx”指定输出。将跳过此项的自定义生成命令。
+         fxc compile for debug: F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\FX\Lighting.fx
+         Microsoft (R) Direct3D Shader Compiler 9.29.952.3111
+         Copyright (C) Microsoft Corporation 2002-2009. All rights reserved.
+         
+         compilation succeeded; see Lighting.cod
+         compilation succeeded; see F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\FX\Lighting.fxo
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Common\d3dApp.cpp ..\..\Common\d3dUtil.cpp ..\..\Common\GameTimer.cpp ..\..\Common\GeometryGenerator.cpp ..\..\Common\LightHelper.cpp ..\..\Common\MathHelper.cpp ..\..\Common\Waves.cpp LightingDemo.cpp
+         LightingDemo.cpp
+         Waves.cpp
+         MathHelper.cpp
+         LightHelper.cpp
+         GeometryGenerator.cpp
+         GameTimer.cpp
+         d3dUtil.cpp
+         d3dApp.cpp
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Lighting.exe.embed.manifest.res" Debug\Lighting_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\Lighting.exe" /INCREMENTAL /NOLOGO d3d11.lib d3dx11d.lib D3DCompiler.lib Effects11d.lib dxerr.lib dxgi.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Lighting.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\Lighting.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\Lighting.lib" /MACHINE:X86 Debug\Lighting.exe.embed.manifest.res
+         Debug\d3dApp.obj
+         Debug\d3dUtil.obj
+         Debug\GameTimer.obj
+         Debug\GeometryGenerator.obj
+         Debug\LightHelper.obj
+         Debug\MathHelper.obj
+         Debug\Waves.obj
+         Debug\LightingDemo.obj
+            正在创建库 F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\Lighting.lib 和对象 F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\Lighting.exp
+     1>Effects11d.lib(d3dx11dbg.obj) : warning LNK4204: “F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(d3dxGlobal.obj) : warning LNK4204: “F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectAPI.obj) : warning LNK4204: “F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectLoad.obj) : warning LNK4204: “F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectNonRuntime.obj) : warning LNK4204: “F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectReflection.obj) : warning LNK4204: “F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectRuntime.obj) : warning LNK4204: “F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Lighting.exe.embed.manifest" /manifest Debug\Lighting.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Lighting.exe.embed.manifest.res" Debug\Lighting_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\Lighting.exe" /INCREMENTAL /NOLOGO d3d11.lib d3dx11d.lib D3DCompiler.lib Effects11d.lib dxerr.lib dxgi.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Lighting.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\Lighting.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\Lighting.lib" /MACHINE:X86 Debug\Lighting.exe.embed.manifest.res
+         Debug\d3dApp.obj
+         Debug\d3dUtil.obj
+         Debug\GameTimer.obj
+         Debug\GeometryGenerator.obj
+         Debug\LightHelper.obj
+         Debug\MathHelper.obj
+         Debug\Waves.obj
+         Debug\LightingDemo.obj
+            正在创建库 F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\Lighting.lib 和对象 F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\Lighting.exp
+     1>Effects11d.lib(d3dx11dbg.obj) : warning LNK4204: “F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(d3dxGlobal.obj) : warning LNK4204: “F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectAPI.obj) : warning LNK4204: “F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectLoad.obj) : warning LNK4204: “F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectNonRuntime.obj) : warning LNK4204: “F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectReflection.obj) : warning LNK4204: “F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectRuntime.obj) : warning LNK4204: “F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+         Lighting.vcxproj -> F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Debug\Lighting.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Lighting.unsuccessfulbuild”。
+         正在对“Debug\Lighting.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\EBook\d3d11CodeSet1\Chapter 7 Lighting\Lighting\Lighting.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.51
